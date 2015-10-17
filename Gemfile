@@ -12,7 +12,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'devise', '~> 3.5.2'
 gem 'paperclip', '~> 4.3.1'
-gem 'aws-sdk', '~> 2.1.30'
+gem 'aws-sdk', '< 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   gem 'byebug'
