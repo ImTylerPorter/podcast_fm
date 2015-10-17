@@ -7,6 +7,7 @@
 		<% @podcasts.each do |podcast| %>
 			<%= link_to podcast do%>
 				<li>
+					<%= image_tag podcast.thumbnail.url(:medium) %>
 					<img src="images/americanfashion.jpg" alt="American Fashion">
 					<div class="podcast_overview">
 						<h2><%= podcast.title %></h2>
